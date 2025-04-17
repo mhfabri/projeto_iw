@@ -40,6 +40,19 @@ nav ul li a{
     
 }
 
+.banner{
+    background: url(../img/banner.jpg) no-repeat center/cover;
+    height: 320px;
+    margin-top: 7.2em;
+}
+
+#inicio{
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 5px #666;
+    color: whitesmoke;
+}
+
 a:hover{
     font-size: 1.5em;
     
@@ -49,6 +62,12 @@ a:hover{
     font-size: 2em;
     font-weight: bold;
     
+}
+
+#foto{
+    width: 70px;
+    align-content: center;
+    border-radius: 90px;
 }
 
 header .container{
@@ -76,9 +95,7 @@ section{
     padding-left: 1.5em;
 }
 
-#inicio{
-    padding-top: 5em;
-}
+
 
 #quemsao ol li{
     padding-top: 30px;
@@ -105,7 +122,7 @@ label{
 }
 
 .ajuda{
-    padding-left: 25em;
+    padding-left: 40%;
 }
 
 footer{
