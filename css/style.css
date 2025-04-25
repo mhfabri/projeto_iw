@@ -36,25 +36,37 @@ nav ul li{
 nav ul li a{
     color: black;
     text-decoration: none;
-    
 }
 
 .banner{
     background: url(../img/banner.jpg) no-repeat center/cover;
     height: 320px;
-    margin-top: 7.2em;
+    margin-top: 10.75em;
 }
 
 #inicio{
     text-align: center;
     font-size: 1.3em;
-    text-shadow: 2px 2px 5px #666;
-    color: whitesmoke;
+    text-shadow: 5px 5px 5px #000;
+    color: #aaa;
+    border: #000 ;
 }
 
-a:hover{
-    font-size: 1.5em;
-    
+#resumo{
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 5px 5px 5px #000;
+    color: #ffffff;
+    border: #000 ;
+    animation: inicio 3s infinite;
+}
+
+.red-h1{
+    text-decoration: none;
+}
+
+#opcoes:hover{
+    animation: menu 3s;
 }
 
 .logo{
@@ -74,9 +86,13 @@ header .container{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
-@media (max-width: 872px){
+
+
+
+@media (max-width: 946px){
     header .container{
         flex-direction: column;
         text-align: center;
@@ -121,11 +137,33 @@ label{
 }
 
 .ajuda{
-    padding-left: 40%;
+    display: block;
+    text-align: center;
+}
+
+.ajuda #enviar{
+    margin-left: 10px;
+}
+
+.ajuda #questao{
+    margin-left: 55px;
 }
 
 footer{
-    color: rgb(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255, 0.2);
     text-align: center;
     padding-top: 50px;
+}
+
+@keyframes menu {
+    50%{
+        transform: translateY(-10%);
+        font-size: 1.3em;
+    }
+}
+
+@keyframes inicio{
+    50%{
+        transform: translateY(-20%);
+    }
 }
