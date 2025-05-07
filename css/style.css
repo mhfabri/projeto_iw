@@ -89,7 +89,13 @@ header .container{
     
 }
 
+.helptitle{
+    padding: 0 0 25px 0;
+}
 
+.formulario{
+    padding: 0 0 25px 0;
+}
 
 
 @media (max-width: 946px){
